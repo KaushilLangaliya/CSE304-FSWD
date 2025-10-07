@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.user-dashboard {
+  padding: 40px;
+  margin-top: 100px;
+  font-family: "Merriweather", serif;
+  text-align: center;
+  background-color: #FBF5EF;
+  min-height: 100vh;
+}
+
+.dashboard-title {
+  font-size: 2.5rem;
+  color: #5C4033;
+  margin-bottom: 10px;
+}
+
+.user-welcome {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  color: #5C4033;
+}
+
+.card-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 11.5%;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.dashboard-card {
+  background-color: #B6C4A3;
+  color: #3E2723;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  width: 260px;
+  text-align: center;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-icon {
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-desc {
+  font-size: 1rem;
+  color: #3E2723;
+}

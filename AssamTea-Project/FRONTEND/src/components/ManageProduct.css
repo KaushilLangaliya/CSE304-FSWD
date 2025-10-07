@@ -1,0 +1,132 @@
+.manage-product {
+  padding: 50px 30px;
+  max-width: 900px;
+  margin: 120px auto 60px auto; /* More space from navbar */
+  background-color: #f4f0ec;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.manage-product h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 32px;
+  color: #5c4033;
+  font-family: 'Merriweather', serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form input[type="text"],
+form input[type="file"],
+form input[type="number"],
+form input[type="url"],
+form textarea,
+form button {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Open Sans', sans-serif;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #b2ac88;
+  box-shadow: 0 0 0 3px rgba(178, 172, 136, 0.2);
+  outline: none;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+form button {
+  background-color: #5c4033;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #3d2d23;
+}
+
+.product-list {
+  margin-top: 50px;
+}
+
+.product-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 25px;
+  padding: 18px 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.product-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-info h4 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.product-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+/* Button container at top-right in a row */
+.product-actions {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+/* Button styles */
+.product-actions button {
+  padding: 8px 14px;
+  background-color: #b2ac88;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-actions button:hover {
+  background-color: #99926f;
+  transform: scale(1.05);
+}

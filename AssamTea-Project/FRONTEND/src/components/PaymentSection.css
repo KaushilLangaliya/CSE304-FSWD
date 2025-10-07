@@ -1,0 +1,90 @@
+.payment-container {
+  background-color: #f4f0ec;
+  padding: 2rem;
+  max-width: 500px;
+  margin: 6rem auto 2rem auto; /* Increased top margin */
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(92, 64, 51, 0.3);
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.payment-title {
+  font-family: 'Merriweather', serif;
+  margin-bottom: 1.5rem;
+  color: #5c4033;
+}
+
+.payment-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.payment-options label {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.payment-option input {
+  margin-right: 10px;
+}
+
+.total-amount {
+  font-size: 18px;
+  font-weight: bold;
+  color: #5c4033;
+  margin-bottom: 1rem;
+}
+
+.btn-proceed {
+  background-color: #5c4033;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-proceed:hover {
+  background-color: #3e2d22;
+}
+
+.order-success {
+  font-family: 'Merriweather', serif;
+  color: #5c4033;
+  margin-top: 2rem;
+}
+
+/* New styles for QR code image */
+.qr-section {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.qr-section img {
+  border: 2px solid #5c4033;
+  border-radius: 12px;
+  padding: 5px;
+  background-color: white;
+  margin-bottom: 0.5rem;
+}
+
+/* New styles for card input fields */
+.card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.card-details input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
